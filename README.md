@@ -70,20 +70,22 @@ flowchart LR
 ```
 .
 ├── data/
-│   ├── Historical World Cup datasets
-│   └── 2026 prediction dataset
+│   ├── elo_ratings_wc2026.csv
+│   └── test_wc_places.csv
+│   └── train_wc_places.csv
 │
-├── notebooks/
-│   └── FIFA_World_Cup_Prediction.ipynb
+├── notebook/
+│   └── world-cup-prediction-models.ipynb
 │
 ├── images/
 │   └── EDA figures used in the report and presentation
 │
 ├── presentation/
-│   └── HTML slide presentation
+│   └── world_cup_presentation_v3.html
+│   └── world_cup_presentation_v3.pdf
 │
 ├── report/
-│   └── Final project paper
+│   └── Final project paper (To be added)
 │
 └── README.md
 ```
@@ -288,7 +290,7 @@ Potential improvements include:
 
 - Player-level statistics
 - Injury reports
-- Expected goals (xG)
+- Expected goals
 - Betting market odds
 - Match-level historical features
 - Additional international competitions
